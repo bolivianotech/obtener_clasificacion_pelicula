@@ -57,12 +57,12 @@ print("¡Pruebas para busqueda_binaria pasaron! ✅")
 print("\nRealizando el experimento del caos...")
 
 # Volvemos a usar la lista desordenada
-mi_lista_desordenada = [10, 5, 42, 8, 17, 30, 25]
+mi_lista_desordenada = [10, 8, 42, 5, 17, 30, 25]
 
 # Intentamos usar búsqueda binaria en una lista desordenada
-resultado_caos = busqueda_binaria(mi_lista_desordenada, 5)
+resultado_caos = busqueda_binaria(mi_lista_desordenada, 8)
 
-print(f"Búsqueda binaria de '5' en lista desordenada devolvió: {resultado_caos}")
+print(f"Búsqueda binaria de '8' en lista desordenada devolvió: {resultado_caos}")
 print("JIMMY REQUENA - FIN DEL PROGRAMA")
 # Probablemente devuelva -1 (fallo), o un índice incorrecto
 
