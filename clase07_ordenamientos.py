@@ -24,7 +24,7 @@ if __name__ == "__main__":
     numeros = [6, 3, 8, 2, 5]
     print("Antes:", numeros)
     ordenamiento_burbuja(numeros)
-    print("Después:", numeros)
+    print("Después Ordenamiento Burbuja:", numeros)
 
 # ------------------------------------------------
 # Pruebas usando assert algoritmo de burbuja
@@ -83,12 +83,16 @@ def ordenamiento_insercion(lista):
 
 # Caso 1: Lista desordenada
 lista1 = [6, 3, 8, 2, 5]
+print("Antes:", lista1)
 ordenamiento_insercion(lista1)
+print("Después Ordenamiento Inserción:", lista1)
 assert lista1 == [2, 3, 5, 6, 8], "Fallo en Caso 1"
 
 # Caso 2: Lista ya ordenada
 lista2 = [1, 2, 3, 4, 5]
+print("Antes:", lista2)
 ordenamiento_insercion(lista2)
+print("Después Ordenamiento Inserción:", lista2)
 assert lista2 == [1, 2, 3, 4, 5], "Fallo en Caso 2"
 
 # Caso 3: Lista ordenada a la inversa (peor caso)
