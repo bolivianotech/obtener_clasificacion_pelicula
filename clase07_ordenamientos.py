@@ -57,6 +57,7 @@ assert ordenamiento_burbuja([]) == [], "Fallo en lista vacía"
 assert ordenamiento_burbuja([42]) == [42], "Fallo en lista con un solo elemento"
 
 print("¡Todas las pruebas ordenamiento burbuja pasaron! ✅")
+print("JIM REQUENA - FIN PROGRAMA ORDENAMIENTO BURBUJA")
 
 def ordenamiento_insercion(lista):
     """
@@ -112,4 +113,4 @@ assert ordenamiento_insercion([]) == [], "Fallo en lista vacía"
 assert ordenamiento_insercion([42]) == [42], "Fallo en lista con un solo elemento"
 
 print("¡Todas las pruebas del ordenamiento por inserción pasaron! ✅")
-
+print("JIM REQUENA - FIN PROGRAMA ORDENAMIENTO INSERCIÓN")
