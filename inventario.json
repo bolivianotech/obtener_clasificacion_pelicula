@@ -3,6 +3,12 @@
         "codigo": "0001",
         "nombre": "Mip",
         "precio": 12.0,
-        "stock": 19
+        "stock": 12
+    },
+    {
+        "codigo": "0002",
+        "nombre": "Pex",
+        "precio": 18.0,
+        "stock": 2
     }
 ]
