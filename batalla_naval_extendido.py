@@ -1,7 +1,7 @@
 import random
 
-FILAS = 5
-COLUMNAS = 5
+FILAS = 4
+COLUMNAS = 2
 BARCOS = 3
 
 # Crear un tablero vacío
@@ -158,3 +158,4 @@ def juego():
 
 # Ejecutar juego
 juego()
+giut 
