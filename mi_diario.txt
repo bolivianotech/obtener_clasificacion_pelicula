@@ -1,0 +1,7 @@
+Querido diario,
+Hoy aprendí sobre archivos en Python.
+El modo 'w' borra todo antes de escribir. ¡Qué miedo!
+¡Pero también es muy útil para comenzar desde cero!
+
+--- Nueva entrada personalizada ---
+es nuevo 
