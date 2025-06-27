@@ -6,7 +6,7 @@
 nombre_archivo = "mi_diario.txt"
 
 # Paso 2: Creamos el archivo desde cero (modo 'w') y escribimos líneas predefinidas
-with open(nombre_archivo, "w") as diario_file:
+with open(nombre_archivo, "a") as diario_file:
     diario_file.write("Querido diario,\n")
     diario_file.write("Hoy aprendí sobre archivos en Python.\n")
     diario_file.write("El modo 'w' borra todo antes de escribir. ¡Qué miedo!\n")
